@@ -47,35 +47,35 @@ int main()
 
 	Image easyEnemyImage;
 	easyEnemyImage.loadFromFile("bird.png");
-	easyEnemyImage.createMaskFromColor(Color(255, 0, 0));//сделали маску по цвету.но лучше изначально иметь прозрачную картинку
-	Enemy easyEnemy(easyEnemyImage, 5452, 671, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy1(easyEnemyImage, 10000, 1871, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy2(easyEnemyImage, 5400, 1671, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy3(easyEnemyImage, 20500, 3671, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy4(easyEnemyImage, 25600, 1261, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy5(easyEnemyImage, 30042, 861, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy6(easyEnemyImage, 5234, 961, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy7(easyEnemyImage, 10570, 871, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy8(easyEnemyImage, 5052, 361, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy9(easyEnemyImage, 50960, 1571, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy11(easyEnemyImage, 5323, 471, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy21(easyEnemyImage, 16400, 1691, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy31(easyEnemyImage, 5300, 8671, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy41(easyEnemyImage, 5080, 461, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy51(easyEnemyImage, 30000, 371, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy61(easyEnemyImage, 35745, 971, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy71(easyEnemyImage, 40740, 4651, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy81(easyEnemyImage, 45225, 3671, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy91(easyEnemyImage, 5240,1671, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy12(easyEnemyImage, 10552, 261, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy22(easyEnemyImage, 1531, 8671, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy32(easyEnemyImage, 28269, 1071, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy42(easyEnemyImage, 2950, 561, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy52(easyEnemyImage, 30070, 1771, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy62(easyEnemyImage, 37960, 9671, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy72(easyEnemyImage, 43050, 471, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy82(easyEnemyImage, 46060, 671, 200, 124, "EasyEnemy");//простой враг, объект класса врага
-	Enemy easyEnemy92(easyEnemyImage, 54640, 171, 200, 124, "EasyEnemy");//простой враг, объект класса врага
+	easyEnemyImage.createMaskFromColor(Color(255, 0, 0));//Г±Г¤ГҐГ«Г Г«ГЁ Г¬Г Г±ГЄГі ГЇГ® Г¶ГўГҐГІГі.Г­Г® Г«ГіГ·ГёГҐ ГЁГ§Г­Г Г·Г Г«ГјГ­Г® ГЁГ¬ГҐГІГј ГЇГ°Г®Г§Г°Г Г·Г­ГіГѕ ГЄГ Г°ГІГЁГ­ГЄГі
+	Enemy easyEnemy(easyEnemyImage, 5452, 671, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy1(easyEnemyImage, 10000, 1871, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy2(easyEnemyImage, 5400, 1671, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy3(easyEnemyImage, 20500, 3671, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy4(easyEnemyImage, 25600, 1261, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy5(easyEnemyImage, 30042, 861, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy6(easyEnemyImage, 5234, 961, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy7(easyEnemyImage, 10570, 871, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy8(easyEnemyImage, 5052, 361, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy9(easyEnemyImage, 50960, 1571, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy11(easyEnemyImage, 5323, 471, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy21(easyEnemyImage, 16400, 1691, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy31(easyEnemyImage, 5300, 8671, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy41(easyEnemyImage, 5080, 461, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy51(easyEnemyImage, 30000, 371, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy61(easyEnemyImage, 35745, 971, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy71(easyEnemyImage, 40740, 4651, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy81(easyEnemyImage, 45225, 3671, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy91(easyEnemyImage, 5240,1671, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy12(easyEnemyImage, 10552, 261, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy22(easyEnemyImage, 1531, 8671, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy32(easyEnemyImage, 28269, 1071, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy42(easyEnemyImage, 2950, 561, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г РїР°РїГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy52(easyEnemyImage, 30070, 1771, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy62(easyEnemyImage, 37960, 9671, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy72(easyEnemyImage, 43050, 471, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy82(easyEnemyImage, 46060, 671, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
+	Enemy easyEnemy92(easyEnemyImage, 54640, 171, 200, 124, "EasyEnemy");//ГЇГ°Г®Г±ГІГ®Г© ГўГ°Г ГЈ, Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  ГўГ°Г ГЈГ 
 
 
 
